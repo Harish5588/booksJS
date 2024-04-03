@@ -1,0 +1,125 @@
+[
+    {
+    "id":1,
+    "name":"Neethi kathalu",
+    "price":865,
+    "image":"images/1.webp"
+
+    },
+    {
+        "id":2,
+        "name":"Panchatantram",
+        "price":500,
+        "image":"images/2.webp"
+    
+    },
+    {
+        "id":3,
+        "name":"Esaf Kathalu",
+        "price":400,
+        "image":"images/3.webp"
+    },
+    {
+        "id":4,
+        "name":"Velugu",
+        "price":555,
+        "image":"images/4.webp"
+    },
+    {
+        "id":5,
+        "name":"Hitopadesa Kathalu",
+        "price":546,
+        "image":"images/5.webp"
+    },
+    {
+        "id":6,
+        "name":"Sampoorn Ramayan",
+        "price":359,
+        "image":"images/6.webp"
+    },
+    {
+        "id":7,
+        "name":"bal Nithik Kahaniya",
+        "price":444,
+        "image":"images/7.webp"
+    },
+    {
+        "id":8,
+        "name":"Nithik Kahaniya",
+        "price":499,
+        "image":"images/8.webp"
+    },
+     {
+        "id":9,
+        "name":"Bal Katha",
+        "price":546,
+        "image":"images/9.webp"
+    },
+    {
+        "id":10,
+        "name":"Akbar-Birbal",
+        "price":356,
+        "image":"images/10.webp"
+    },
+    {
+        "id":11,
+        "name":"Harry potter",
+        "price":768,
+        "image":"images/11.webp"
+    },
+    {
+        "id":12,
+        "name":"The Star child",
+        "price":439,
+        "image":"images/12.jpg"
+    },
+    {
+        "id":13,
+        "name":"The Jungle BOOK",
+        "price":398,
+        "image":"images/13.jpg"
+    },
+    {
+        "id":14,
+        "name":"Stuart Little",
+        "price":546,
+        "image":"images/14.jpg"
+    },
+    {
+        "id":15,
+        "name":"Woodland School",
+        "price":567,
+        "image":"images/15.avif"
+    },
+    {
+        "id":16,
+        "name":"The 100 Best Novels",
+        "price":479,
+        "image":"images/16.jpg"
+    },
+    {
+        "id":17,
+        "name":"A story of Struggle",
+        "price":345,
+        "image":"images/17.jpg"
+    },
+    {
+        "id":18,
+        "name":"The Calculating Stars",
+        "price":453,
+        "image":"images/18.jpeg"
+    },
+    {
+        "id":19,
+        "name":"Book Of Night",
+        "price":657,
+        "image":"images/19.jpg"
+    },
+    {
+        "id":20,
+        "name":"Left Over",
+        "price":450,
+        "image":"images/20.jpg"
+    }
+    
+]

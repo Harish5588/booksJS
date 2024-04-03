@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LitReads Book Store</title>
+    <link rel="icon" href="https://static.wixstatic.com/media/ecaed0_7820e50344f743388b4e80181986c61f~mv2.png/v1/fill/w_560,h_560,al_c,lg_1,q_85,enc_auto/LIT%20READS%20Logo%20(1).png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    
+    
+</head>
+<body>
+    
+    
+    <header class="heading bg-light">
+        <h1 class="display-4 text-primary"><img src="https://static.vecteezy.com/system/resources/thumbnails/011/169/445/small_2x/education-fire-logo-design-motivation-book-logo-design-template-free-vector.jpg" alt="" style="width: 80px;border-radius: 50%;">LitReads</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto gap-5 mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active text-dark" aria-current="page" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Categories</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Best Sellers
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">ABC store</a></li>
+                      <li><a class="dropdown-item" href="#">Amaze store</a></li>
+                      
+                      <li><a class="dropdown-item" href="#">Lit store</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="/html/aboutus.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="/html/bookstore-contact.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <div class="iconCart">
+                    <img src="https://t3.ftcdn.net/jpg/05/60/17/66/360_F_560176615_cUua21qgzxDiLiiyiVGYjUnLSGnVLIi6.jpg" alt="cart" style="width: 40px;">
+                    <div class="totalQuantity">0</div>
+                    </div>
+                    
+                  </li>
+                  <li class="nav-item">
+                    <div class="login">
+                    <img src="https://icons.veryicon.com/png/o/miscellaneous/domain-icons/my-account-login.png" alt="" style="width:36px;height: 35px;">
+                    </div>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+     
+        <div class="homePage">
+            <section>
+                    <div class="listProduct">
+        
+                    <div class="item">
+                        <img src="" alt="">
+                        <h2>CoPilot / Black / Automatic</h2>
+                        <div class="price">$550</div>
+                        <button>Add To Cart</button>
+                    </div>
+        
+                </div>
+            
+             </section>
+             </div>   
+
+
+
+    <div class="cart">
+        <h2>
+            CART
+        </h2>
+
+        <div class="listCart">
+            <div class="item">
+                <img src="https://learnenglish-new.com/wp-content/uploads/2021/11/English-story-books-for-elementary-level.png">
+                <div class="content">
+                    <div class="name">CoPilot / Black / Automatic</div>
+                    <div class="price">$550 / 1 product</div>
+                </div>
+                <div class="quantity">
+                    <button>-</button>
+                    <span class="value">3</span>
+                    <button>+</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="buttons">
+            <div class="close">
+                CLOSE
+            </div>
+            <div class="checkout">
+                <a href="/html/checkout.html">CHECKOUT</a>
+            </div>
+            </div>
+      </div>
+
+      <div class="loginpage">
+        <span class="closebt" onclick="closelog()">&times;</span>
+        <h3>Login</h3>
+        <div class="loginContent">
+          
+          <form class="loginForm">
+            <label for="Uname">UserName</label><br>
+            <input type="text" required><br>
+            <label for="password">Password</label><br>
+            <input type="password" required><br>
+            <button id="logbutton" class="btn btn-primary mt-3 " onclick="closelog()">Login</button>
+          </form>
+        </div>
+      </div>
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="/js/script.js"></script>
+    
+    <br>
+    <footer class="footer-class">
+        <form class="newsletter-form text-center ">
+            <input class="p-1 mt-1" type="email" name="email" placeholder="Your Email">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+        <div class="row mt-5 text-center">
+        <div class="col"><p>This Store is offering a Good Book collection with better price.</p></div>
+        <div class="col">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Best Seller</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <p>Copyright @ awesomw store pvt ltd</p>
+        </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
